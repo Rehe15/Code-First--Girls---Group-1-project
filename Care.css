@@ -1,0 +1,35 @@
+/* CARE CSS*/
+
+#careGallery {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 50px 0px;
+}
+.care_img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: 35px;
+   }
+
+.care_img div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #8a83838f;
+    color: white;
+    margin-bottom: 5px;
+    font-family: monospace;
+    text-align: center;
+    visibility: hidden;
+   }
+
+   .care_img:hover div{
+    width: 150px;
+    padding: 10px 25px;
+    visibility: visible;
+
+}
+
+
+/* credits to https://makitweb.com/html-how-to-show-text-above-image-on-hover/ */ 

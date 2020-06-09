@@ -1,0 +1,42 @@
+/* CAKE CSS*/
+/* Parent Container */
+#cakeGallery {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 50px 0px
+}
+.cake_img {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin-left: 40px;
+    border: papayawhip 2px ridge;
+}
+
+/* Caption CSS */ 
+.cake_img div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #0e8571fa;
+    color: black;
+    margin-bottom: 5px;
+    font-family: monospace;
+    text-align: center;
+    opacity: 10;
+    visibility: hidden;
+}
+ 
+.cake_img:hover div{
+    width: 150px;
+    padding: 10px 25px;
+    visibility: visible;
+    opacity: 9; 
+}
+
+#cakeGallery .hearts {
+    font-size: 20px;
+    color: rgb(243, 180, 45);
+}
+
+/* credits to https://makitweb.com/html-how-to-show-text-above-image-on-hover/ */ 
