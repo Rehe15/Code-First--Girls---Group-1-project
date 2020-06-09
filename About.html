@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- STYLE SHEET-->
+    <link rel="stylesheet" href="Main.CSS">
+    <link rel="stylesheet" href="About.CSS">
+    <style>
+      .holdingcontainer{
+          max-width: 100%;
+          display: flex;
+          background-color: #f5f5f9;
+          padding: 50px;
+          box-sizing: border-box;
+          flex-direction: row;
+        }
+      
+        .internalcontainer1{
+          flex: 1;
+          background-color: #fff2e6;
+          padding: 28px;
+          font-size: 15px;
+          color: #8a8383;
+          font-family:  'Courier New', Courier, monospace;
+          font-weight: bolder;
+          margin: 3px;
+          text-align: center;
+          border: 5px #8a8383 double;
+        }
+      
+      
+        .internalcontainer2{
+          flex: 1;
+          background-color: #fff2e6;
+          padding: 28px;
+          font-size: 15px;
+          color: #8a8383;
+          font-family:  'Courier New', Courier, monospace;
+          font-weight: bolder;
+          margin: 3px;
+          text-align: center;
+          border: 5px #8a8383 double;
+        }
+      
+        @media screen and (max-width: 768px){
+          .holdingcontainer{
+            flex-direction: column-reverse;
+          }
+        }
+        </style>
+</head>
+
+<body style="background-color: #f5f5f6">
+    <!-- NAVIGATION BAR -->
+  <div id="nav-right">
+    <ul>
+        <li><a href="MainPage.html"> Main </a></li>
+        <li><a href="About.html"> About </a></li>
+        <li><a href="Cake.html">Cake </a></li>
+        <li><a href="Cocktail.html">Cocktails </a></li>
+        <li><a href="Care.html">Care</a></li>
+        <li><a href="Exit.html">  Exit </a></li>
+    </ul>
+  </div>
+
+ <div id="main">
+  <p class="title"> Code First: Girls </p>
+  <div class="other-text"> Get to know a bit about us and how we found our <br> Code First: Girls journey</div>
+  <div class="line">  ____________________________ </div>
+</div> 
+
+<body>
+  
+    <div class="holdingcontainer">
+      <div class="internalcontainer1"><h1>ALEXIS</h1><img class="dasimages" src="https://i.ibb.co/VjdxJJN/Screen-Shot-2020-06-07-at-20-15-49.png" width="300" height="300"/> <br> Hello, I’m Alexis, I’m a Law and Language student. 
+        <br> Prior to CodeFirst Girls I didn’t really know anything about coding. I’m graduating this year and wanted to try something new, especially during Lockdown. I’ve always liked exploring and learning languages but never dived into programming languages. After the first week weeks, I was able to see how challenging and rewarding coding can be, similarly to languages I’ve studied. 
+        <br>I’ve really enjoyed learning HTML and CSS. 
+        <br>JavaScript is yet to be my friend, but I’ll definitely work towards it. </div>
+
+      <div class="internalcontainer2"><h1>REMI</h1><img class="dasimages" src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/86697889_10216330108510323_2640583942696075264_n.jpg?_nc_cat=108&_nc_sid=85a577&_nc_ohc=RcUNyFyhh-QAX-Dvh6j&_nc_ht=scontent-lht6-1.xx&oh=d6937a10109574b257932a71f73baa63&oe=5F00B851" width="300" height="300"/> <br> Hey! My name is Remi and I have recently completed my Masters degree in Genetics. At the beginning of this year, I set out a challenge to learn to code (driven primarly by me having failed miserably in a Python module at university). Though I was initially apprehensive about my ability to learn to code again, being a part of Code First: Girls has given me the skills and confidence to be able to tackle code and introduced me to the wonderful world of Web Development. I know I have just touched the tip of the iceberg, but the course's introduction makes me excited for the coding adventures I am yet to embark on.</div>
+    </div>
+  </body>
+</html>
+

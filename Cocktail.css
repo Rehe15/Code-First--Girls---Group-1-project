@@ -1,0 +1,44 @@
+/* Cocktail CSS */
+
+#CocktailGallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cocktail_img {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin-left: 40px;
+    border: #ffbb33 10px double;
+}
+
+
+.cocktail_img div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 10;
+    visibility: hidden;
+    margin-bottom: 5px;
+    background: #ff6600;
+    color:moccasin;
+    font-family: monospace;
+    text-align: center;
+    font-size: large;
+
+
+}
+ 
+.cocktail_img:hover div{
+    width: 150px;
+    padding: 10px 25px;
+    visibility: visible;
+    opacity: 9; 
+}
+
+.cocktail_caption {
+    font-size: 20px;
+    color: moccasin;
+}
